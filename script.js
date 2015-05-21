@@ -71,4 +71,8 @@ $(document).ready(function(){
         $("#scrtext").empty();
         screentxt = "";
     })
+    $("#del").click(function(){
+        $("#scrtext").contents().last().remove();
+        screentxt = screentxt.substring(0, -1);
+    })
 });
