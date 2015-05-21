@@ -54,8 +54,14 @@
   border-width: 5px;
   border-color: black;
   margin-left: 20px;
+  display: inline-block;
 }
 
 #equals {
   width: 300px;
+}
+
+#del {
+   width:150px;
+   height: 45px;
 }
