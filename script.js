@@ -73,6 +73,6 @@ $(document).ready(function(){
     })
     $("#del").click(function(){
         $("#scrtext").contents().last().remove();
-        screentxt = screentxt.substring(0, -1);
+        screentxt = screentxt.slice(0, -1);
     })
 });
